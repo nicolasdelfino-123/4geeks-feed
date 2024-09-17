@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.general-container{
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 1000px;
+    border: 2px dashed black;
+}
+
+.nav-bar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+#general-container{
+    border: 5px dashed red;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: grey;
+
+}
+
+.container1 {
+    border: 3px dashed blue;
+    width: 500px;
+    
+    margin: 50px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container2{
+    border: 3px dashed yellow;
+}
+
+.img1,
+.img2{
+    width: 100%;
+    height: auto;
+}
