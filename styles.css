@@ -40,22 +40,35 @@ body{
 
 .container1 {
     border: 3px dashed blue;
-    width: 500px;
-    
+    width: 600px;
+    /* height: 1000px; */
     margin: 50px auto;
-    height: auto;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     
 }
+.img1,
+.img2{
+    width: 100%;
+    height: 85%;
+    object-fit: fill;
+   
+}
+
 
 .container2{
     border: 3px dashed yellow;
 }
 
-.img1,
-.img2{
-    width: 100%;
-    height: auto;
+
+.div-parrafo1{
+    background-color: white;
+    height: 60px;
+}
+
+.title1{
+    background-color: white;
+    height: 43px;
 }
